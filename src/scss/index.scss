@@ -1,2 +1,33 @@
-@import '../../node_modules/bootstrap/scss/bootstrap';
-@import './custom.scss';
+@import './variables.scss';
+
+@import './hero.scss';
+
+:root {
+  --zelena: #82c434;
+  --cerna: #000000;
+  --modra: #282e3e;
+  --seda: #676767;
+  --svetleseda: #e2e2e2;
+  --bila: #ffffff;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  font-family: 'Capriola', sans-serif;
+}
